@@ -32,7 +32,7 @@ for query in [val]:
                     image_results.append(image["original"])
             
             # update to the next page
-            break;
+            break
         else:
             images_is_present = False
             print(results["error"])
