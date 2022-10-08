@@ -52,4 +52,4 @@ htmlcontents = doc.render()
 @app.route('/')
 def index():
   return htmlcontents
-app.run(host='0.0.0.0', port=8080)
+app.run(host='localhost', port=8080)
